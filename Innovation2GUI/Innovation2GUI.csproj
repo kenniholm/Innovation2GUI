@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ØkonomiPages\Budget.xaml.cs">
+      <DependentUpon>Budget.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ØkonomiPages\SkatPage.xaml.cs">
+      <DependentUpon>SkatPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ØkonomiWindow.xaml.cs">
       <DependentUpon>ØkonomiWindow.xaml</DependentUpon>
     </Compile>
@@ -70,6 +76,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ØkonomiPages\Budget.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ØkonomiPages\SkatPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ØkonomiWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

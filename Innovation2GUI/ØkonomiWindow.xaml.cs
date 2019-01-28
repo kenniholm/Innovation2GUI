@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Innovation2GUI.ØkonomiPages;
 
 namespace Innovation2GUI
 {
@@ -22,6 +23,7 @@ namespace Innovation2GUI
         public ØkonomiWindow()
         {
             InitializeComponent();
+            
         }
 
         private void TilbageBtn_Click(object sender, RoutedEventArgs e)
@@ -29,6 +31,18 @@ namespace Innovation2GUI
             MainWindow main = new MainWindow();
             main.Show();
             this.Close();
+        }
+
+        private void BudgetBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Budget bpage = new Budget();
+            ØkonomiFrame.Navigate(bpage);
+        }
+
+        private void LønOgSkatBtn_Click(object sender, RoutedEventArgs e)
+        {
+            SkatPage spage = new SkatPage();
+            ØkonomiFrame.Navigate(spage);
         }
     }
 }
