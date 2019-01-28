@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="EasyLearn" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268,0,0,0" Height="70" Width="256" FontSize="48"/>
+        <Label Content="Vælg Menupunkt" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="146" Margin="0,80,0,0"/>
+        <Button Name="ØkonomiBtn" Content="Økonomi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,116,0,0" Height="40" Click="ØkonomiBtn_Click"/>
+        <Button Content="Madlavning" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,156,0,0" Height="40"/>
+        <Button Content="Øvelser" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,196,0,0" Height="40"/>
+        <Button Content="Networking" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,236,0,0" Height="40"/>
+        <Button Content="Vejledning" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,276,0,0" Height="40"/>
+
     </Grid>
 </Window>
