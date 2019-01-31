@@ -7,12 +7,17 @@
         mc:Ignorable="d"
         Title="ØkonomiWindow" Height="450" Width="800">
     <Grid>
-        <Label Content="Økonomi" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="146" Margin="0,80,0,0"/>
+        <Image Source="14656.jpg" Stretch="Fill"/>
+
+        <Label Content="Økonomi" FontWeight="Bold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="146" Margin="0,80,0,0"/>
         <Button Content="Bolig" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="146" Margin="0,116,0,0"/>
-        <Button Name="BudgetBtn" Content="Budget" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="146" Margin="0,156,0,0" Click="BudgetBtn_Click"/>
-        <Button Name="LønOgSkatBtn" Content="Løn og skat" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="146" Margin="0,196,0,0" Click="LønOgSkatBtn_Click"/>
-        <Button Name="TilbageBtn" Content="Tilbage" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="146" Margin="0,236,0,0" Click="TilbageBtn_Click"/>
-        <Frame Name="ØkonomiFrame" NavigationUIVisibility="Hidden" Content="" HorizontalAlignment="Left" Height="357" VerticalAlignment="Top" Width="548" RenderTransformOrigin="1.98,1.098" Margin="202,26,0,0"/>
+        <Button x:Name="BudgetBtn" Content="Budget" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="146" Margin="0,156,0,0" Click="BudgetBtn_Click"/>
+        <Button x:Name="LønOgSkatBtn" Content="Løn og skat" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="146" Margin="0,196,0,0" Click="LønOgSkatBtn_Click"/>
+        <Button x:Name="TilbageBtn" Content="Tilbage" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="146" Margin="0,236,0,0" Click="TilbageBtn_Click"/>
+        <Frame x:Name="ØkonomiFrame" NavigationUIVisibility="Hidden" Content="" HorizontalAlignment="Left" Height="357" VerticalAlignment="Top" Width="548" RenderTransformOrigin="1.98,1.098" Margin="202,26,0,0"/>
+        <Image Margin="10,121,747,263" Source="house.png" Stretch="Fill"/>
+        <Image Margin="10,161,747,224" Source="budget.png" Stretch="Fill"/>
+        <Image Margin="10,200,747,183" Source="Taxes.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

@@ -7,13 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Image Source="Fixed.jpg" Stretch="Fill"/>
+
         <Label Content="EasyLearn" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="268,0,0,0" Height="70" Width="256" FontSize="48"/>
-        <Label Content="Vælg Menupunkt" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="146" Margin="0,80,0,0"/>
-        <Button Name="ØkonomiBtn" Content="Økonomi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,116,0,0" Height="40" Click="ØkonomiBtn_Click"/>
+        <Label Content="Vælg Menupunkt" FontWeight="Bold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Height="36" Width="146" Margin="0,80,0,0"/>
+        <Button x:Name="ØkonomiBtn" Content="Økonomi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,116,0,0" Height="40" Click="ØkonomiBtn_Click"/>
         <Button Content="Madlavning" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,156,0,0" Height="40"/>
         <Button Content="Øvelser" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,196,0,0" Height="40"/>
         <Button Content="Networking" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,236,0,0" Height="40"/>
         <Button Content="Vejledning" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,276,0,0" Height="40"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="120" Margin="640,10,0,0"/>
+        <Image Margin="612,10,152,386" Source="search-icon-png-20.png" Stretch="Fill"/>
+        <Image Margin="0,121,754,263" Source="dfgh.png" Stretch="Fill"/>
+        <Image Margin="0,161,754,223" Source="Cooki.png" Stretch="Fill"/>
+        <Image Margin="0,201,754,183" Source="Clipboard.png" Stretch="Fill"/>
+        <Image Margin="0,241,747,143" Source="Networking.png" Stretch="Fill"/>
+        <Image Margin="0,281,747,103" Source="Vejledning.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

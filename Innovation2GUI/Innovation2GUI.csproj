@@ -115,5 +115,44 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Fixed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="search-icon-png-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Money.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="dfgh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Cooki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Clipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Networking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Vejledning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="14656.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="budget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Taxes.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
