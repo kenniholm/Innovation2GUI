@@ -31,5 +31,10 @@ namespace Innovation2GUI
             øko.Show();
             this.Close();
         }
+
+        private void Søg_Textbox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Søg_Textbox.Clear();
+        }
     }
 }

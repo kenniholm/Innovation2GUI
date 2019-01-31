@@ -16,7 +16,7 @@
         <Button Content="Øvelser" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,196,0,0" Height="40"/>
         <Button Content="Networking" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,236,0,0" Height="40"/>
         <Button Content="Vejledning" HorizontalAlignment="Left" VerticalAlignment="Top" Width="146" Margin="0,276,0,0" Height="40"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="120" Margin="640,10,0,0"/>
+        <TextBox x:Name="Søg_Textbox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="120" Margin="640,10,0,0" MouseDoubleClick="Søg_Textbox_MouseDoubleClick"/>
         <Image Margin="612,10,152,386" Source="search-icon-png-20.png" Stretch="Fill"/>
         <Image Margin="0,121,754,263" Source="dfgh.png" Stretch="Fill"/>
         <Image Margin="0,161,754,223" Source="Cooki.png" Stretch="Fill"/>
