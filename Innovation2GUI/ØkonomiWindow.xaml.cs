@@ -23,7 +23,9 @@ namespace Innovation2GUI
         public ØkonomiWindow()
         {
             InitializeComponent();
-            
+            Default def = new Default();
+            ØkonomiFrame.Navigate(def);
+
         }
 
         private void TilbageBtn_Click(object sender, RoutedEventArgs e)

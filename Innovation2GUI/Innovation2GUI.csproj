@@ -58,6 +58,9 @@
     <Compile Include="ØkonomiPages\Budget.xaml.cs">
       <DependentUpon>Budget.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ØkonomiPages\Default.xaml.cs">
+      <DependentUpon>Default.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ØkonomiPages\SkatPage.xaml.cs">
       <DependentUpon>SkatPage.xaml</DependentUpon>
     </Compile>
@@ -77,6 +80,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ØkonomiPages\Budget.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ØkonomiPages\Default.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
